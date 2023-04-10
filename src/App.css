@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navbar{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 25px;
+  background-color: whitesmoke;
+}
+.title{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: snow;
+  font-size: x-large;
+  font-weight: 600;
+}
+.children{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+/* User Content  */
+
+.card-box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 25px;
+}
+.card{
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.card>h5{
+  width: 100%;
+  height: 50px;
+  background-color: violet;
+  color: snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn-list>button{
+  border: none;
+  border-radius: 5px;
+  width: 4rem;
+  height: 3rem;
+}
+.btn-list>button:hover{
+  background-color: yellowgreen;
+}
+
+/* Add New User */
+
+.user-details{
+  width:50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(233, 225, 240);
+  border-radius: 25px;
+}
+.user-details:hover{
+  margin: 10px;
+}
+.user-txt{
+  width: 90%;
+}
+
+/* No Page  */
+.no-page>h1{
+  width: 100%;
+  height: 50px;
+  font-size: 50px;
+  font-weight: bolder;
+  align-items: center;
+  color: thistle;
+}
+.no-page>a{
+  width: 100%;
+  align-items: center;
+  font-size: xx-large;
+  color: white;
+}
